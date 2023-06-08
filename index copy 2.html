@@ -1,0 +1,34 @@
+<!-- build:remove -->
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+<!-- endbuild -->
+        <!--removeIf(production)-->
+        <link rel="stylesheet" href="./dist/css/main.css">
+        <!--endRemoveIf(production)-->
+
+        <!-- old-use-if-no-clean-html-inject:css -->
+        <!-- old-use-if-no-clean-html-endinject -->
+<!-- build:remove -->
+    </head>
+    <body>
+        @@include('./src/header.html')
+<!-- endbuild -->
+        @@include('./src/main.html')
+<!-- build:remove -->
+        @@include('./src/footer.html')
+<!-- endbuild -->
+        <!-- inject:js -->
+        <script src="./dist/js/bundle.js"></script>
+        <!-- endinject -->
+
+        <!-- old-use-if-no-clean-html-removeIf(production)-->
+        <!-- old-use-if-no-clean-html-endRemoveIf(production)-->
+<!-- build:remove -->
+    </body>
+    </html>
+<!-- endbuild -->

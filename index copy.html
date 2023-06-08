@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--removeIf(production)-->
+    <link rel="stylesheet" href="./css/main.css">
+    <!--endRemoveIf(production)-->
+
+    <!-- old-use-if-no-clean-html-inject:css -->
+    <!-- old-use-if-no-clean-html-endinject -->
+</head>
+<body>
+    @@include('./src/header.html')
+    @@include('./src/main.html')
+    @@include('./src/footer.html')
+ 
+    <!-- inject:js -->
+    <script src="./js/bundle.js"></script>
+    <!-- endinject -->
+
+    <!-- old-use-if-no-clean-html-removeIf(production)-->
+    <!-- old-use-if-no-clean-html-endRemoveIf(production)-->
+</body>
+</html>
