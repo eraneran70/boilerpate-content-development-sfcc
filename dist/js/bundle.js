@@ -1,0 +1,1 @@
+let language="I am here and I mmade it!!!",text="";for(let e of language)text+=e+"<br>";document.getElementById("demo").innerHTML=text;
